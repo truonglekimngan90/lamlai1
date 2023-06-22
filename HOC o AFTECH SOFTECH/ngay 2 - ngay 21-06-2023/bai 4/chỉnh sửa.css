@@ -1,0 +1,12 @@
+html{font-size: 20px;
+    background-color: antiquewhite;}
+
+h1{font-size: 2rem;
+    border-bottom: solid rgb(151, 140, 140);
+    padding: 0  0   20px  0;}
+
+#main{margin: 20px  0     20px    0;
+    padding:  0     40px    0   40px;
+    width: 1000px;}
+
+div{line-height: 1.5;}

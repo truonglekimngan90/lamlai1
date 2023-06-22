@@ -1,0 +1,45 @@
+html {
+    background: url(https://blogs.nvidia.com/wp-content/uploads/2017/04/xx-the-spacewalker.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 20px;
+}
+
+h1{ color: red;
+    border:3px solid rgb(14, 236, 32);
+    background:rgb(238, 223, 135); 
+    font-size: 3rem; 
+    font-style:italic;  
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+    
+    
+.h1{color:rgb(245, 11, 175,0.2);
+    border:3px solid red;
+    background:gold;  
+    font-size: 3rem; 
+    font-style: italic; 
+    text-transform: capitalize;
+   }
+
+
+h3{ color:rgb(0, 255, 170);
+    background:rgb(175, 189, 221); 
+    font-size: 2rem; 
+    text-transform: lowercase;
+    text-decoration:overline;
+  }
+
+div{border: 1px solid blue;}
+
+#main{margin: 20px   0     40px     0;
+      padding:  0    40px   0      40px;      
+      }
+
+#ảnh{width: 1600px;
+    height: 900px;
+    overflow:scroll;
+    border-radius: 40px 40px 40px 40px;
+     }
+    

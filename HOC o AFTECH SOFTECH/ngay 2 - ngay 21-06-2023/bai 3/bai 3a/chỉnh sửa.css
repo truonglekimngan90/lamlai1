@@ -1,0 +1,17 @@
+html{font-size: 20px;}
+
+h1{font-size: 2rem;
+    color:red;
+                /* tạo viền khung ở đáy dưới */
+                /* đẩy ra xa viền Border phía dưới */
+    border-bottom: solid rgb(226, 240, 28);  
+    padding: 0   0   20px  0 ;}
+
+h2{font-size: 1.5rem;}
+
+#main{margin: 20px   0    20px   0;
+    padding:   0    40px    0   40px;
+    width: 1500px;}
+
+#ảnh{width: 1500px;
+    height: 800px;}

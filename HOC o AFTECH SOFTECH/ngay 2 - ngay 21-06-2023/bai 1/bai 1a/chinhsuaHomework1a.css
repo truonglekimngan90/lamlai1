@@ -9,8 +9,10 @@ h3{color:blue;
    font-size: 1.5rem;
    text-transform: capitalize; }
 
-#main{margin: 20px  0   20px  0;
-      padding: 0   40px   0  40px;
+
+    /* cách:  trên  phải dưới  trái */
+#main{margin: 20px   0    20px  0;
+      padding: 0    40px   0  40px;
       width: 1600px;}
 
 #ảnh{width: 1400px;

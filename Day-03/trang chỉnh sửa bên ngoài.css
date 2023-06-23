@@ -1,9 +1,11 @@
 html {
-    background: url(https://blogs.nvidia.com/wp-content/uploads/2017/04/xx-the-spacewalker.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-size: 20px;
-}
+  background: url(https://blogs.nvidia.com/wp-content/uploads/2017/04/xx-the-spacewalker.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 20px;  }
+
+
+
 
 h1{ color: red;
     border:3px solid rgb(14, 236, 32);
@@ -43,3 +45,8 @@ div{border: 1px solid blue;}
     border-radius: 40px 40px 40px 40px;
      }
     
+#top{text-align: right;}
+
+#mèo{text-align: right;}
+
+.wrapper{text-align: left;}

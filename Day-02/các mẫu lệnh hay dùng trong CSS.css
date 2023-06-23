@@ -1,0 +1,62 @@
+html{font-size: 20px;
+     background-color: antiquewhite;
+            background: url(https://blogs.nvidia.com/wp-content/uploads/2017/04/xx-the-spacewalker.jpg);}
+                            /* background-size: cover;     Phủ đầy toàn bộ phần tử cha bằng hình nền và giữ nguyên tỷ lệ của hình ảnh. */
+                            /* background-repeat: no-repeat;    Không lặp lại hình nền trên phần tử cha. */
+            background-size: cover;
+            background-repeat: no-repeat;
+-------------------------------------------------
+
+h1{ color:red;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;  
+
+                 /* tạo viền khung ở đáy dưới */
+                /* đẩy ra xa viền Border phía dưới */
+    border-bottom: solid rgb(226, 240, 28);  
+    padding: 0   0   20px  0 ;
+                border:3px solid rgb(14, 236, 32);
+                background:rgb(238, 223, 135);              
+                font-style:italic;                  
+                text-decoration: underline;}
+--------------------------------------------------------
+
+
+h3{color:blue;
+   font-size: 1.5rem;
+   text-transform: capitalize; }
+---------------------------------------------------------
+
+    /* cách:  trên  phải dưới  trái */
+#main{margin: 20px    0   20px   0;
+      padding: 0    40px   0  40px;
+      width: 1600px;}
+--------------------------------------------------------
+
+#ảnh{width: 1400px;
+     height: 800px;
+                   /* để ảnh có các góc bo tròn */
+    border-radius: 40px  40px   40px   40px;   
+                             
+                        /* để mép trên của ảnh  cách xa ra với dòng chữ phía trên */
+    padding:      20px    0      0       0;
+    overflow:scroll;}
+
+--------------------------------------------------------                 
+
+
+                  /* giãn khoảng cách giữa các hàng trên - dưới */
+div{line-height: 1.5;}    
+
+
+
+
+body {
+    background-image: url(https://blogs.nvidia.com/wp-content/uploads/2017/04/xx-the-spacewalker.jpg);
+    opacity: 1; 
+  }
+  /* giảm độ trong suốt của hình ảnh */
+
+

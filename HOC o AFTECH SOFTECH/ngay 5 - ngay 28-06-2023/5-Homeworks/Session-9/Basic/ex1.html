@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex1</title>
+<style>
+    body{max-width: 1200px;}
+        
+    .container{margin: 0  30px; 
+        width: 590px; }
+    
+    .model>table{border-collapse: collapse;
+        width: 100%;} 
+
+    div{margin-bottom: 70px;}
+     
+
+    table tr th,
+    table tr td{border: 1px solid black;
+            padding: 10px;}
+
+    table tr td:first-child{text-align: center;}
+
+     
+    .model1 table tr th,
+    .model1 table tr td
+       {  border: none;
+          border-bottom: 1px solid gray  }
+
+    .model1 table  tr:first-child  th,
+    .model1 table  tr:first-child  td       { border-bottom: 3px solid gray } 
+
+    .model1 table  tr:last-child  th,
+    .model1 table  tr:last-child  td       { border-bottom: none } 
+
+    
+    .model3 table tr:nth-child(even){background-color: aqua;}
+
+    body{display: flex;
+    }
+
+
+</style>
+
+</head>
+
+<body>
+    <div class="container container1">
+            <div class="model model1">
+                    <h3>Table - Default</h3>
+
+                    <table>
+                            <tr>
+                                    <th>#</th>
+                                    <th>First Name</th>
+                                    <th>Last Name</th>
+                                    <th>Username</th>
+                            </tr>
+
+                            <tr>
+                                    <td>1</td>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                            </tr>
+
+                            <tr>
+                                    <td>2</td>
+                                    <td>Jacob</td>
+                                    <td>Thomton</td>
+                                    <td>@fat</td>
+                            </tr>
+
+                            <tr>
+                                    <td>3</td>
+                                    <td>Larry</td>
+                                    <td>The Bird</td>
+                                    <td>@twitter</td>
+                            </tr>
+
+                    </table>
+
+            </div>
+
+             <div class="model">
+                    <h3>Table - Bordered</h3>
+
+                    <table>
+                            <tr>
+                                    <th>#</th>
+                                    <th>First Name</th>
+                                    <th>Last Name</th>
+                                    <th>Username</th>
+                            </tr>
+
+                            <tr>
+                                    <td>1</td>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                            </tr>
+
+                            <tr>
+                                    <td>2</td>
+                                    <td>Jacob</td>
+                                    <td>Thomton</td>
+                                    <td>@fat</td>
+                            </tr>
+
+                            <tr>
+                                    <td>3</td>
+                                    <td>Larry</td>
+                                    <td>The Bird</td>
+                                    <td>@twitter</td>
+                            </tr>
+
+                    </table>
+
+            </div>
+
+              <div class="model model1">
+                    <h3>Table - Default</h3>
+
+                    <table>
+                            <tr>
+                                    <th>#</th>
+                                    <th>First Name</th>
+                                    <th>Last Name</th>
+                                    <th>Username</th>
+                            </tr>
+
+                            <tr>
+                                    <td>1</td>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                            </tr>
+
+                            <tr>
+                                    <td>2</td>
+                                    <td>Jacob</td>
+                                    <td>Thomton</td>
+                                    <td>@fat</td>
+                            </tr>
+
+                            <tr>
+                                    <td>3</td>
+                                    <td>Larry</td>
+                                    <td>The Bird</td>
+                                    <td>@twitter</td>
+                            </tr>
+
+                    </table>
+
+            </div>
+
+
+            
+    </div>
+
+<!-- ----------------------------------------------- -->
+
+<div class="container container1">
+    <div class="model model1 model3">
+            <h3>Table - Striped</h3>
+
+            <table>
+                    <tr>
+                            <th>#</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Username</th>
+                    </tr>
+
+                    <tr>
+                            <td>1</td>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                    </tr>
+
+                    <tr>
+                            <td>2</td>
+                            <td>Jacob</td>
+                            <td>Thomton</td>
+                            <td>@fat</td>
+                    </tr>
+
+                    <tr>
+                            <td>3</td>
+                            <td>Larry</td>
+                            <td>The Bird</td>
+                            <td>@twitter</td>
+                    </tr>
+
+            </table>
+
+    </div>
+
+     <div class="model">
+            <h3>Table - Bordered Hover row</h3>
+
+            <table>
+                    <tr>
+                            <th>#</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Username</th>
+                    </tr>
+
+                    <tr>
+                            <td>1</td>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                    </tr>
+
+                    <tr>
+                            <td>2</td>
+                            <td>Jacob</td>
+                            <td>Thomton</td>
+                            <td>@fat</td>
+                    </tr>
+
+                    <tr>
+                            <td>3</td>
+                            <td>Larry</td>
+                            <td>The Bird</td>
+                            <td>@twitter</td>
+                    </tr>
+
+            </table>
+
+    </div>
+
+      <div class="model model1">
+            <h3>Table - Hover Rows</h3>
+
+            <table>
+                    <tr>
+                            <th>#</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Username</th>
+                    </tr>
+
+                    <tr>
+                            <td>1</td>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                    </tr>
+
+                    <tr>
+                            <td>2</td>
+                            <td>Jacob</td>
+                            <td>Thomton</td>
+                            <td>@fat</td>
+                    </tr>
+
+                    <tr>
+                            <td>3</td>
+                            <td>Larry</td>
+                            <td>The Bird</td>
+                            <td>@twitter</td>
+                    </tr>
+
+            </table>
+
+    </div>
+
+
+    
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+html{width: 600px;}
+
+.ảnh{width: 600px;
+        margin-bottom: 0;
+        border: none; }
+
+h3{background-color: orange;
+        color: white;
+        width: 570px;
+        padding: 12px  20px;
+        border: none;
+        margin-top: 0;}
+
+
+            /* nêu  không co dòng   "overflow: hidden;"  thì bô cục chữ ẽ nhảy lộn xộn */
+.container{overflow: hidden;}
+
+.left {width: 200px;
+        float: left;
+        margin-right: 15px;}
+
+.right {text-align: justify;
+         overflow: hidden;}

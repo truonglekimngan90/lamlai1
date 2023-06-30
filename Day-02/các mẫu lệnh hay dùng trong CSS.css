@@ -1,4 +1,5 @@
 html{font-size: 20px;
+     text-align: justify;}
      background-color: antiquewhite;
             background: url(https://blogs.nvidia.com/wp-content/uploads/2017/04/xx-the-spacewalker.jpg);}
                             /* background-size: cover;     Phủ đầy toàn bộ phần tử cha bằng hình nền và giữ nguyên tỷ lệ của hình ảnh. */
@@ -9,9 +10,12 @@ html{font-size: 20px;
 
 h1{ color:red;
     font-size: 2rem;
+    font-style:italic;
     text-transform: uppercase;
     text-align: center;
-    line-height: 1;  
+    text-decoration: underline;
+    line-height: 1; 
+    
 
                  /* tạo viền khung ở đáy dưới */
                 /* đẩy ra xa viền Border phía dưới */
@@ -19,8 +23,8 @@ h1{ color:red;
     padding: 0   0   20px  0 ;
                 border:3px solid rgb(14, 236, 32);
                 background:rgb(238, 223, 135);              
-                font-style:italic;                  
-                text-decoration: underline;}
+                                  
+                }
 --------------------------------------------------------
 
 

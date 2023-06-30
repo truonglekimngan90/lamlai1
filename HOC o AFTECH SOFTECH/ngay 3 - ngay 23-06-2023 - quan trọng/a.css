@@ -1,0 +1,69 @@
+html{width: 800px;}
+
+h1{font-size: 32px;
+    color: #111;
+    background-color: yellow;
+    margin: 50px;
+    width: 50%;}
+
+#a{font-size: 14px;
+    color: #333;
+    line-height: 2;}
+ 
+ul>li:nth-child(4){color: red;}
+ul>li:first-child{color: blue;}
+ul>li:last-child{color:red}
+ul>li:nth-child(2n+2){color: red;}
+
+
+#phim1{margin-right: 20px;}
+
+
+        /* THỤT ĐẦU DÒNG cho đoạn văn */
+p{text-indent: 40px;}
+
+
+    /* đưa nội dung vào giữa 2 dấu "....." */
+p::before{content: '"';            
+            color: red;}
+p::after{content: '"';
+        color: red}
+
+
+       
+
+          /* gọi là psuedo */
+.nav>a::after{content: "|";
+                margin: 0  10px;
+                color: red;}
+
+.nav>a:last-child::after{content: ""}    
+
+        chưa hiểu rõ lắm  về  cái này ????????????
+span{}
+span {display: inline-block;
+        background: yellow;  }
+
+
+
+              /* padding là khoảng cách giữa CHỮ và BORDER */
+              /*     .box  thì đều áp dụng cho cả 3 nút 1,2,3 vì đều có cùng chữ "BOX" trong các class */
+.box{background-color: yellow;
+        width: 100px;
+        height: 50px;
+        border-radius: 50px;
+        padding: 10px   50px;
+        border-style: dotted;
+        border-color: red;
+        text-align: center;
+        }
+            /* các nút có cùng class box1  được đẩy đều sang phải, để tăng khoảng cách giữa các nút */
+.box1{margin-right: 20px;}
+
+
+                /* tăng khoảng cách giữa 2 cục:  div trên  và   div dưới  liên tiếp */
+.div{margin-bottom: 30px;}
+
+----------------------------------------------------------------
+
+        

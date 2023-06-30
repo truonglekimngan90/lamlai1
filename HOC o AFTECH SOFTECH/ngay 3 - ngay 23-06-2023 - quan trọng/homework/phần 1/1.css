@@ -1,0 +1,15 @@
+html{width: 600px;
+    text-align: justify;}
+--------------------------------------------------
+.nav{text-decoration: none;}
+
+.nav>a::after{content: "/";
+                color:red;
+                margin: 0  10px;}
+.nav>a:last-child::after{content: "";}
+--------------------------------------------------
+#ảnh{width: 1500px;}
+
+
+.minhhoa{background-color: rgb(207, 212, 210);
+        margin-top: 0;}

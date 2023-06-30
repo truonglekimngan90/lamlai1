@@ -1,0 +1,106 @@
+body{background-color: antiquewhite;}
+
+.container{background-color: aquamarine;
+            width: 1000px;
+            max-width: 100%;
+            margin: auto;                              
+            padding: 50px; 
+            box-shadow: 0 10px  50px    rgb(136, 135, 138); 
+            display: grid;
+            grid-template-columns: 35%  60%;
+            column-gap: 5%;
+            row-gap: 30px; }   
+
+-----------------------------------------------
+.avatar{display: flex;
+        justify-content: end;} 
+                    
+.avatar  img{width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;}    
+            
+   
+        /* cả đoạn trong class name  đều cách boderleft = 30px */
+.name{padding-left: 30px;
+        border-left: 1px solid black;}
+        
+                /* h1 cách dòng dưới 50px */
+.name h1{font-weight: 300;
+            font-size: xx-large;
+            margin: 0  0  50px;}
+
+.name   .specialze{margin: 0;
+                    font-weight: bold;
+                    letter-spacing: 3px;}    
+                    
+.name  .contact{padding: 0;
+                list-style:none ;}    
+                
+.name  .contact   span{display: inline-block;
+                        background-color: black;
+                        color: white;
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 50%;
+                        text-align: center;
+                        font-size: small;
+                        margin-right: 20px;   }    
+                        
+.name  .contact     li{padding: 5px  0;
+                        transform: translate(-40px);
+                        background-color: white;}       
+                        
+                        
+/* ----------------------------------------------------------- */
+.info   ul{padding: 0;
+            margin: 0;
+            list-style: none;
+            text-align: right;
+            line-height: 30px;} 
+
+/* ---------------------------------------------------             */
+.intro{padding-left: 30px;
+        border-left: 1px solid black;
+        text-align: justify;}            
+
+h2{padding: 0;
+    margin: 0   0   20px;}  
+    
+
+/* ---------------------------------------------------------------     */
+.exp{text-align: right;} 
+
+.exp  h4{margin: 20px  0   10px;}
+
+.skills{margin: top 50px;}
+
+.exp  ul{padding: 0;
+         margin: 0;
+        list-style: none;
+        line-height: 30px;}
+
+/* ---------------------------------------------------------------------- */
+.project{padding-left: 30px;
+    text-align: justify;
+    border-left: 1px solid black;}  
+    
+.projec .web{color: green;
+            padding: 10px  0;}    
+
+.project  .location{font-weight: 500;
+                    padding: 10px  0;}            
+
+
+                             /*  ????????????  nếu ko có     .project  .item{position:relative;}     : thì sẽ không ra dấu chấm     */
+.project  .item{position:relative;}                    
+
+.project  .item::before{position: absolute;
+                        width: 13px;
+                        height: 13px;
+                        background-color: black;
+                        content: '';
+                        border-radius: 50%;
+                        left: -37px;}
+
+

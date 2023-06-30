@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2</title>
+
+    <style>
+        .container{max-width: 1200px;
+            margin: 0px  20px;}
+        
+        form{padding-top: 40px;}
+
+                            /* các div trên và dưới cách đều nhau 1 đoạn =20px */
+        form>div{margin: 20px  0;}
+
+        form input[type="text"],
+        form input[type="email"],
+        form input[type="tel"],
+        textarea{appearance: none;
+            padding: 10px;
+            border: 1px solid rgb(136, 130, 130);}
+
+
+        .introduction{display: flex;
+             flex-wrap: nowrap;}
+
+        textarea{width: 68%;
+                height: 40px;}
+
+        .intro{margin-right: 5px;}
+
+                            /* ô  Mã BV chỉ rộng = 40px */
+                            /* hở bên phải, cách nút "gửi đánh giá" ra 5px */
+        .maBV{width: 40px;
+                margin-right: 5px;}
+
+        .gui-danh-gia{display: flex;}
+
+        button{background-color: orange;
+                border: none;
+                font-weight: bold;    }
+
+    
+
+    </style>
+
+    
+
+</head>
+<body>
+    <div class="container">
+            <form action="">
+                <h3>Bình luận - đánh giá bài viết</h3>
+                Chọn đánh giá của bạn
+                <div>
+                        <textarea name="content" id="content" cols="30" rows="10"   minlength="80"  maxlength="255"  placeholder="Nhập đánh giá về dịch vụ, ít nhất 80 kí tự"></textarea>
+                </div>
+
+                <div class="introduction">
+                        <div>
+                            <input type="text"  class="intro"  id="name" name="name" min="8" max="30" placeholder="Tên (bắt buộc)">
+                        </div>
+        
+                        <div>
+                            <input type="email"  class="intro"  id="email"  name="email"  placeholder="Email">
+                        </div>
+        
+                        <div>
+                            <input type="tel"  class="intro" id="mobile"   name="mobile"  placeholder="số điện thoại (tuỳ chọn)" pattern="^([0-9]+){10}$">
+                        </div>    
+                </div>
+
+               
+                <div class="gui-danh-gia">
+                    <div >
+                        <input type="text" class="maBV"  placeholder="Mã BV">
+                    </div>
+    
+                    <button>Gửi đánh giá</button>
+                </div>
+               
+            
+            </form>
+
+    </div>
+
+    
+
+</body>
+</html>

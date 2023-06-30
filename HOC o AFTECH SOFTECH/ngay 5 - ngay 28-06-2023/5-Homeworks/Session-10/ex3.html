@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex3</title>
+
+    <style>
+        .connect{max-width: 1200px;
+            margin: 40px;
+            background-color: rgb(186, 220, 243);
+            display: flex;}
+
+        .image{width: 60%;
+            height: auto;
+            margin: 25px  0  25px 25px;}
+
+        .image2{margin-top: 30px;}
+
+        .container{width: 40%;
+            padding-left: 20px;
+            background-color: white;
+            margin: 25px  25px  25px  0;}
+
+        .container h1{color: red;}
+
+        form input[type="text"],
+        form input[type="email"],
+        form input[type="tel"],
+        form input[type="password"]{padding: 10px;
+            width: 350px;
+            border: 1px solid rgb(156, 149, 149);
+            border-radius: 4px;}
+
+        .nhapdulieu{margin-bottom: 10px;}
+        div{margin-bottom: 40px;}
+
+        button{background-color: red;
+            border: none;
+            width: 350px;
+            height: 40px;}
+
+        a{text-decoration: none;}
+
+        
+
+    </style>    
+
+</head>
+<body>
+
+    <div class="connect">
+        <img class="image" src="hình 3.png" alt="">
+        
+        <div class="container">
+            <form action=""  method="get"  name="form_register">
+                <img class="image2" src="logo.png" alt="">
+                <h1>Sign Up</h1>
+                <h3>Sign up for new account</h3>
+                <div>Thank you for connecting with us Grovia, lets access our the best recommendation contact for you.</div>
+
+                <div>
+                        <div class="nhapdulieu">Fullname</div>
+                        <input type="text" minlength="8"  maxlength="30">
+                </div>
+
+                <div>
+                    <div class="nhapdulieu">Email</div>
+                        <input type="email"  autocomplete="on">
+                </div>
+                
+                <div>
+                    <div class="nhapdulieu">Phone Number</div>
+                        <input type="tel" pattern="^([0-9]+){10}$">
+                </div>
+
+                <div>
+                    <div class="nhapdulieu">Password</div>
+                        <input type="password"  minlength="6">
+                </div>
+
+                <div>
+                    <div class="nhapdulieu">Confirm Password</div>
+                        <input type="password"  minlength="6">
+                </div>
+
+                <div>
+                        <input checked type="checkbox">Agree to <a  target="_blank"  href="https://www.thegioididong.com/tai-nghe/bluetooth-airpods-pro-magsafe-charge-apple-mlwk3?utm_flashsale=1"><span style="color: red;">Terms and Conditions</span></a>  of Grovia
+                </div>
+
+                <div>
+                        <button>SIGN UP</button>
+                </div>
+
+                <div>
+                    Already have an account ? <a target="_blank"  href="https://www.thegioididong.com/"><span style="color: red;">Login Now !</span></a>
+                </div>
+        </form>
+
+        </div>
+    </div>
+
+
+
+        
+
+        
+</body>
+</html>

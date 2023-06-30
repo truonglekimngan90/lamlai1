@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex1</title>
+
+    <style>
+        .container{max-width: 400px;
+                margin: 20px  20px;
+                background-color: rgb(30, 212, 212);}
+
+        form{padding: 20px;}
+
+        img{width: 200px;
+            height: 200px;
+           padding-left: 90px}
+
+                   /* để làm cho chữ sát với ô cần nhập */
+        h3{margin: 0;}
+
+        .length{appearance: none;
+            width: 90%;
+            padding: 10px;
+            }
+
+        div{margin-bottom: 20px;}
+    </style>
+    
+
+</head>
+<body>
+    <div class="container">
+            <img src="Untitled.png" alt="">
+            <form action="" method="get"  name="form_register">
+                    <div>
+                            <h3>Username</h3>
+                            <input class="length" type="text"  required  id="username"   name="username"  minlength="5"  maxlength="30"  placeholder="Enter Username">
+                    </div>
+
+                    <div>
+                            <h3>Password</h3>
+                            <input class="length"  type="password"   required  placeholder="Enter Password">
+                    </div>
+                    
+                    <div>
+                        <button>Login</button>
+                    </div>
+                    
+
+                    <div>
+                        <input type="checkbox">Remember me
+                    </div>
+            </form>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex4</title>
+<style>
+    .connect{max-width: 1200px;
+                background-color: rgb(202, 234, 255);
+                display: flex;
+                margin: 0 20px;
+                
+                flex-wrap: nowrap;}
+    
+                /* để bên phải áp sát với ảnh phải */
+    .container1{width: 60%;
+            margin: 40px  0  40px  40px;
+            background-color:  #eaeff2;}
+
+                /* để bên trái áp sát với ảnh trái */
+    .container2{width: 35%;
+                margin: 40px  40px  40px  0;
+              background-color: white;
+                padding-left: 30px;}
+    
+                /* để ảnh cách xa đỉnh trên trang là 100px */
+    .image1{width: 600px;
+            height: auto ;
+            padding-top: 100px;}
+
+    .image2{width: 200px;
+        height: auto;
+        margin-top: 30px;
+        margin-bottom: 60px;}
+
+    .cung1hang{width: 100%;
+        display: flex;
+        flex-wrap: nowrap;}
+
+    .checkbox{margin-right: 95px;}   
+
+    input[type="text"],
+    input[type="password"]{
+        appearance: none;
+        padding: 10px;
+        border: 1px solid gainsboro);
+        width: 300px;}
+    
+    .container2 div{margin-bottom: 20px;}
+    
+    .container2  h2{color: red;
+            margin-bottom: 40px;}
+
+    .container1{padding-left: 80px;
+                padding-top: 95px;}
+
+    .hang{font-size: 37px;
+            font-weight: bold;
+        margin-bottom: 0;}
+
+    button{background-color: red;
+        color: white;
+        border: none;
+        padding: 15px  138px;
+        font-weight: bold;}
+          
+           /* cho đoạn văn được tự động xuống dòng, tránh tràn qua Lề phải */
+    .login{width: 300px;}
+     
+
+</style>
+
+
+</head>
+
+<body>
+
+    <div class="connect">
+                <div class="container1">
+                    <div class="hang hang1">Set Your Parner</div>
+                    <div class="hang">Recruitment on Auto-Pilot</div>
+                    
+                    <img class="image1"  src="hinh bai 4.png" alt="hình bai 4">
+                 </div>
+
+                <div class="container2">
+                        <img  class="image2"  src="logo.png" alt="">
+
+                        <h2>Login</h2>
+
+                        <div class="login">
+                            <h3>Login to your account</h3>
+                            Thank you for get back to Grovia, lets access our the best recommendation contact for you.
+                        </div>
+
+                        <div>
+                            <div>Username</div>
+                            <input type="text"  placeholder="Email or Phone Number"  pattern="[a-zA-Z0-9-_]+[a-zA-Z0-9-_]+[.com]|[0-9]{10}"    >
+                        </div>
+
+                        <div>
+                            <div>Password</div>
+                            <input type="password"  min="6"  placeholder="Password">
+                        </div>
+
+                        <div class="cung1hang">
+                                <div class="checkbox">
+                                    <input type="checkbox">Remember me 
+                                </div>
+                                
+                                <div  style="color: red;">
+                                    <a  target="_blank"   href="https://www.thegioididong.com/laptop/lenovo-yoga-slim-7-carbon-13itl5-i5-82nh00avvn?utm_flashsale=1"    style="color: red;">Reset Password ?</a>
+                                </div>
+                        </div>
+                    
+                        <div>
+                            <button>SIGN IN</button>
+                        </div>
+
+                        <div>
+                            Don't you have an account yet ? <a  target="_blank"  href="https://www.thegioididong.com/"><span style="color: red;">Join Grovia Now !</span></a>
+                        
+                        </div>
+
+                </div>        
+    </div>
+    
+    
+    
+</body>
+</html>

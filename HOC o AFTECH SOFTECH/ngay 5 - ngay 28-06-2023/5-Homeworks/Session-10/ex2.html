@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex2</title>
+
+    <style>
+        .container{max-width: 450px;
+            margin: 0  20px;
+            background-color: azure;}
+
+        form{padding-left:  20px;}
+
+                  /* /* margin: 30px  0}: border dưới cách phần email 30px
+                        nội dung phần .required  cách border dưới là 20px */
+        .required{border-bottom: 2px solid rgb(185, 178, 178);
+                padding-top: 5px;
+                padding-bottom: 20px;
+                margin-bottom: 30px  0}
+        
+        input[type="email"],
+        input[type="password"]{appearance: none;
+                padding: 10px;
+                background-color: rgb(235, 227, 227);
+                width: 90% ;
+                border: none;}
+        
+        div{margin-bottom: 20px;}
+
+        h3{margin: 0;}
+
+        button{appearance: none;
+            width: 95px;
+            height: 40px;
+            border: none;
+            margin: 20px  0;
+            width: 205px;}
+        
+        .button1-2{display: flex;
+            flex-wrap: nowrap;}
+
+        .cancel{background-color: rgb(235, 109, 6);}
+
+        .sign-up{background-color: rgba(96, 165, 51, 0.637);}
+
+
+
+    </style>
+
+
+
+</head>
+
+<body>
+    <div class="container">
+        <form action=""   method="get"  name="form_register">
+                <div class="required">
+                    <h1>Sign Up</h1>
+                    Please fill in this form to create an account
+                </div>
+
+                <div>
+                    <h3>Email</h3>
+                    <input type="email"  id="email"  name="email"  placeholder="Enter email">
+                </div>
+
+                <div>
+                    <h3>Password</h3>
+                    <input type="password"  id="password" name="password"  placeholder="Enter Password">
+                </div>
+
+                <div>
+                    <h3>Repeat Password</h3>
+                    <input type="password"  name="password"  placeholder="Repeat Password">
+                </div>
+
+                <div>
+                    <input   checked  type="checkbox">Remember me
+                </div>
+                
+                By creating an account you agree to our <a  target="_blank"  href="https://www.thegioididong.com/"><u style="color: blue; ">Terms & Privacy</u></a>
+
+                <div class="button1-2">
+                    <button class="cancel">Cancel</button>
+                    <button class="sign-up">Sign Up</button>
+                </div>
+        </form>
+
+    </div>
+    
+
+</body>
+</html>
